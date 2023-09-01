@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+div.clear{
+    clear: both;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-top: 8vh;
+   margin-bottom: 8vh;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+section.hero{
+    display: flex;
+    justify-content: center;
+    /* height: 20px; */
+}
+div.tabel{
+    /* width: 1700px; */
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    padding: 30px;
+}
+div.isi{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 200px;
+}
+div.topleft{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+div.topleft p{
+    display: block;
+    font-size: 20px;
+}
+h1{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+div.bottom{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+div.emoji{
+    font-size: 30px;
+}
+div.link{
+    font-size: 17px;
+    font-weight: bold;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+div.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* float: right; */
+    flex-direction: row-reverse;
+}
+a:hover{
+    text-decoration: underline;
+}
